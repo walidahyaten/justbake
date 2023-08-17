@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Roboto:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/shop.css">
+    <title>Just Bake</title>
+</head>
+
+
+
+<body>
+
+    <header>
+        <img class="logo" src="img/logobakker1.png" alt="logobakker1">
+        <div class="Social">
+            <p>Volg ons→ </p>
+            <img src="img/fb.png" alt="">
+            <img src="img/insta.png" alt="">
+            <img src="img/ytb.png" alt="">
+        </div>
+        <nav class="navigation">
+            <ul>
+
+                <li class="text-hover"><a href="home.html">HOME</a>
+                </li>
+                <li class="text-hover"><a href="wat.html" class="nav-link">WAT</a>
+                </li>
+                <li class="text-hover"><a href="hoe.html" class="nav-link">HOE</a>
+                </li>
+                <li class="text-hover1"><a href="shop.html" class="nav-link">SHOP</a>
+                </li>
+                <li class="text-hover"><a href="contact.html" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <h1>Just Bake Shop</h1>
+
+            <p>Welkom in onze bakkerswinkel! Ontdek onze zorgvuldig samengestelde selectie heerlijke taarten, cupcakes
+                en meer. Geen idee wat te kiezen? Vertrouw op onze eigen favorieten voor een smaakvolle ervaring die je
+                zeker niet zal vergeten.</p>
+
+        </section>
+
+        <h3>Prijs:</h3>
+
+        <select>
+            <option value="optie1">Geen</option>
+            <option value="optie1">60 EUR</option>
+            <option value="optie2">150 EUR</option>
+            <option value="optie3">190 EUR</option>
+            <option value="optie3">250 EUR</option>
+        </select>
+
+        <h3>Voordbereiding:</h3>
+
+        <select>
+            <option value="optie2">Geen</option>
+            <option value="optie2">Enkele dagen</option>
+            <option value="optie1">1 week</option>
+            <option value="optie2">2 weken</option>
+            <option value="optie1">3 weken</option>
+            <option value="optie2">4+ weken </option>
+        </select>
+
+        <div style="display: flex; justify-content: space-between;">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide"><img src="img/combo12.jpg" alt="Image 1"></div>
+                    <div class="carousel-slide"><img src="img/Combo1(2).jpg" alt="Image 2"></div>
+                </div>
+
+                <p><strong>Combo Taart en Cupcake</strong></p>
+                <p> Voordbereiding: 1-2 weken</p>
+                <p>Prijs: vanaf 150 EUR</p>
+                <p><u>Bestelling→</u></p>
+                <div class="carousel-arrow left-arrow" onclick="prevSlide(0)">&#9664;</div>
+                <div class="carousel-arrow right-arrow" onclick="nextSlide(0)">&#9654;</div>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide"><img src="img/themecake11.jpg" alt="Image 3"></div>
+                    <div class="carousel-slide"><img src="img/themecake22.jpg" alt="Image 4"></div>
+
+                </div>
+                <p><strong>Idol Taart </strong></p>
+                <p> Voordbereiding: 2-3 weken</p>
+                <p>Prijs: vanaf 190 EUR</p>
+                <p><u>Bestelling→</u></p>
+                <div class="carousel-arrow left-arrow" onclick="prevSlide(1)">&#9664;</div>
+                <div class="carousel-arrow right-arrow" onclick="nextSlide(1)">&#9654;</div>
+            </div>
+        </div>
+
+
+        <div style="display: flex; justify-content: space-between; margin-top: 80px;">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide"><img src="img/Wedding11(2).jpg" alt="Image 5"></div>
+                    <div class="carousel-slide"><img src="img/wedding22(2).jpg" alt="Image 6"></div>
+                </div>
+                <p><strong>Wedding Taart</strong></p>
+                <p> Voordbereiding: 4-5 weken</p>
+                <p>Prijs: vanaf 250 EUR</p>
+                <p><u>Bestelling→</u></p>
+                <div class="carousel-arrow left-arrow" onclick="prevSlide(2)">&#9664;</div>
+                <div class="carousel-arrow right-arrow" onclick="nextSlide(2)">&#9654;</div>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide"><img src="img/cupcake11.jpg" alt="Image 7"></div>
+                    <div class="carousel-slide"><img src="img/cupcake22.jpg" alt="Image 8"></div>
+                </div>
+                <p><strong>Thema Cupcake</strong></p>
+                <p> Voordbereiding: 5-6 dagen</p>
+                <p>Prijs: vanaf 60 EUR</p>
+                <p><u>Bestelling→</u></p>
+                <div class="carousel-arrow left-arrow" onclick="prevSlide(3)">&#9664;</div>
+                <div class="carousel-arrow right-arrow" onclick="nextSlide(3)">&#9654;</div>
+            </div>
+        </div>
+
+        <div class="button"><button type="submit">🔁Meer Laden</button></div>
+
+
+        <footer>
+            <small>Just Bake- Koopvaardijlaan-9000 Gent - justbake@gmail.com - +32123456789</small>
+        </footer>
+
+    </main>
+    <script src="js/shop.js"></script>
+</body>
+
+</html>

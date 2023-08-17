@@ -1,0 +1,225 @@
+.afbeelding-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bakker {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: #F4EBF2;
+    font-family: Merriweather, Georgia, serif;
+
+}
+
+button {
+
+    border-radius: 6px;
+    background: #ce3c83;
+    padding: 0.75em 1.5em;
+    border-color: transparent;
+}
+
+
+
+.cake-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cake-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.cake-image {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.cake-details {
+    flex: 1;
+}
+
+
+.cake-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50%;
+}
+
+.filter-image {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.filter-details {
+    flex: 1;
+}
+
+.filter-metadata {
+    margin-top: 10px;
+}
+
+.filter-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.filter-image {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.filter-details {
+    flex: 1;
+}
+
+.filter-metadata {
+    margin-top: 10px;
+
+}
+
+h1,
+h2,
+h3 {
+    color: #ce3c83;
+
+}
+
+header img {
+    width: 3%;
+
+}
+
+
+header {
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+img {
+    width: 15%;
+    border-radius: 6%;
+}
+
+.logo {
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -2%;
+    width: 4%;
+
+}
+
+main {
+
+    margin: auto;
+    max-width: 960px;
+
+}
+
+.nadelen {
+    width: 55%;
+    float: right;
+    margin-top: -170px;
+    padding-left: 10px;
+    height: 50%;
+
+
+}
+
+.navigation {
+    font-family: Merriweather, Georgia, Serif;
+    margin-top: 1%;
+
+}
+
+.navigation {
+    font-family: Merriweather, Georgia, Serif;
+    text-align: right;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation ul li:first-child {
+    margin-left: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-link {
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    text-decoration: none;
+}
+
+.Social {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 80%;
+}
+
+.Social p {
+    margin-right: 10px;
+    padding-left: 1590px;
+}
+
+.Social img {
+    margin-left: 10px;
+}
+
+strong {
+    color: #ce3c83;
+}
+
+.text-hover a:hover {
+    transition: 1s ease-out;
+    border-bottom: 2px solid #ce3c83;
+    content: "";
+    bottom: 0;
+    left: 0;
+    color: #ce3c83;
+
+}
+
+.text-hover1 {
+    transition: 1s ease-out;
+    border-bottom: 2px solid #ce3c83;
+    content: "";
+    bottom: 0;
+    left: 0;
+    color: #ce3c83;
+}

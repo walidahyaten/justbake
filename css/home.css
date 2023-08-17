@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.background {
+    background-color: #F4EBF2;
+
+}
+
+.begin {
+    margin-top: 2%
+}
+
+
+.bakker {
+    padding-left: 47px;
+    padding-right: 25px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.bakker img {
+    width: 150%;
+    height: auto;
+    border-radius: 6%;
+
+}
+
+.bakker .btn {
+
+    margin-top: 6%;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+
+.bakker form {
+    margin-top: 10%;
+
+}
+
+#banner {
+
+    background-image: url(../img/home\ pagina.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.banner_box {
+    line-height: 1.8;
+    margin: 0 auto;
+    padding: 40px 0;
+
+}
+
+.banner_box p {
+    color: black;
+    font-family: Manjari;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+.banner_box h1 {
+    color: #CE3C83;
+    font-family: Manjari;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+
+
+body {
+    background-color: #F4EBF2;
+    font-family: Merriweather, Georgia, serif;
+}
+
+
+.checkbox {
+    float: right;
+    width: 50%;
+    padding-top: 13%;
+    padding-left: 10%;
+
+
+}
+
+.checkbox button {
+
+    border-radius: 6px;
+    background: #ce3c83;
+    padding: 0.75em 1.5em;
+    border-color: transparent;
+}
+
+
+
+
+.carousel-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 calc(100% / 3);
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+}
+
+.color {
+    width: 100%;
+    background-color: #F4EBF2;
+}
+
+footer {
+    text-align: center;
+    margin-top: 23%;
+
+}
+
+header {
+    position: relative;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header img {
+    width: 2%;
+
+}
+
+
+h1,
+h2,
+h3 {
+    color: #ce3c83;
+
+}
+
+
+
+html {
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.logo {
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -2%;
+    width: 4%;
+
+}
+
+main {
+
+    margin: auto;
+    max-width: 960px;
+
+}
+
+.menselijk {
+    display: flex;
+    align-items: center;
+}
+
+.menselijk .image {
+    margin-right: 20px;
+    width: 80%;
+}
+
+.menselijk img {
+
+    border-radius: 6%;
+}
+
+
+.navigation {
+    text-align: right;
+    padding-right: 1%;
+    font-family: Merriweather, Georgia, Serif;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation ul li:first-child {
+    margin-left: 0;
+}
+
+
+.navigation a {
+
+    color: black;
+
+
+}
+
+.nav-link {
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    text-decoration: none;
+}
+
+
+
+p {
+    line-height: 2.1;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+
+section {
+    max-width: 100%;
+    background-color: #F4EBF2;
+}
+
+
+.Social {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 80%;
+}
+
+.Social p {
+    margin-right: 10px;
+    padding-left: 1590px;
+}
+
+.Social img {
+    margin-left: 10px;
+}
+
+
+#tekst {
+    width: 200%;
+    text-decoration: none;
+}
+
+#tekst li {
+    list-style: none;
+}
+
+
+
+.text {
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.text button {
+    border-radius: 6px;
+    background: #ce3c83;
+    padding: 0.75em 1.5em;
+    border-color: transparent;
+
+}
+
+.text h2 {
+    margin-top: 0;
+
+}
+
+
+
+.text form {
+    margin-top: 5%;
+    padding-right: 10%;
+}
+
+
+
+.text-hover a:hover {
+    transition: 0.03s ease-out;
+    border-bottom: 2px solid #ce3c83;
+    content: "";
+    bottom: 0;
+    left: 0;
+    color: #ce3c83;
+
+}
+
+.text-hover1 {
+    transition: 0.03s ease-out;
+    border-bottom: 2px solid #ce3c83;
+    content: "";
+    bottom: 0;
+    left: 0;
+    color: #ce3c83;
+    text-decoration: none;
+}
+
+
+#tekst h2 {
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+
+#tekst {
+    text-align: center;
+
+}
+
+#tekst .btn {
+    margin-top: 2%;
+    border-radius: 6px;
+    background: #ce3c83;
+    padding: 0.75em 1.5em;
+    border-color: transparent;
+}
+
+.voordelen {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-top: 60px;
+
+}
+
+.vraag {
+    float: left;
+    width: 50%;
+    padding-top: 10%;
+
+}
+
+.vraag button {
+    border-radius: 6px;
+    background: #ce3c83;
+    padding: 0.75em 1.5em;
+    border-color: transparent;
+}
+
+
+.vraag h2 {
+    margin-top: 6%;
+}
